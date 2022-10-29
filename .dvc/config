@@ -1,4 +1,7 @@
 [core]
-    remote = private-s3
+    remote = private-ssh
 ['remote "private-s3"']
     url = s3://dvc-private/remote/get-started
+['remote "private-ssh"']
+    url = ssh://dvc@35.194.53.251/home/dvc/storage
+    keyfile = /Users/ivan/.ssh/dvc_gcp_remotes_rsa
