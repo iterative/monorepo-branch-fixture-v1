@@ -1,0 +1,4 @@
+[core]
+    remote = private-s3
+['remote "private-s3"']
+    url = s3://dvc-private/remote/get-started
